@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIcons</key>
+	<dict/>
+	<key>CFBundleIcons~ipad</key>
+	<dict/>
+	<key>CFBundleIdentifier</key>
+	<string>com.anbground.GroundIOS</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.dmscjs.GroundIOS</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>GroundIOS</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb157229911140490</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1.0.1</string>
+	<key>Daum Map APIKey</key>
+	<string>428b9e410fddb54a232b083119123ba8ae57d4bf</string>
+	<key>FacebookAppID</key>
+	<string>127933574043566</string>
+	<key>FacebookDisplayName</key>
+	<string>GroundIOS</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>OS Identifier</key>
+	<string>1</string>
+	<key>ServerUrl</key>
+	<string>http://altair.vps.phps.kr:9000/</string>
+	<key>TimeoutConnection</key>
+	<integer>5000</integer>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Helvetica87-CondensedHeavy Oblique.ttf</string>
+		<string>HelveticaCdBlk.ttf</string>
+	</array>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+</dict>
+</plist>

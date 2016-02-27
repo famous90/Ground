@@ -1,0 +1,84 @@
+//
+// Prefix header for all source files of the 'GroundIOS' target in the 'GroundIOS' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+#endif
+
+#define UIColorFromRGB(rgbValue) [UIColor \
+colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define UIFontFixedFontWithPixels(fontPixels) [UIFont fontWithName:@"Helvetica-CondensedBlack" size:((fontPixels)*0.4417)]
+#define UIFontFixedFontWithSize(fontSize) [UIFont fontWithName:@"Helvetica-CondensedBlack" size:(fontSize)]
+#define UIFontHelveticaWithSize(fontSize) [UIFont fontWithName:@"Helvetica" size:(fontSize)]
+#define UIFontHelveticaBoldWithSize(fontSize)   [UIFont fontWithName:@"Helvetica-Bold" size:(fontSize)]
+
+#define StoryboardNameForiPhone35   @"StoryboardIPhone35"
+#define StoryboardNameForiPhone4    @"StoryboardIPhone4"
+#define ScreenSizeForiPhone35   480
+#define ScreenSizeForiPhone4    568
+#define UIFontWithPixel(fontPixels)
+#define HEIGHT_OF_KEYBOARD      216.0
+#define HEIGHT_OF_TABBAR        73.0
+
+// MAP
+#define DAUM_MAP_ZOOM_LEVEL     3
+#define MAP_OPEN_API_KEY @"DAUM_LOCAL_DEMO_APIKEY"
+
+// ERROR CODE
+#define NO_ERROR                    0
+#define ERROR                       500
+#define ERROR_INVALID_PARAMETER     100
+#define ERROR_INVALID_SESSTION_KEY  101
+#define ERROR_EMAIL_NOT_EXIST       102
+#define ERROR_DUPLICATED_EMAIL      200
+#define ERROR_WRONG_PASSWORD        201
+#define ERROR_WRONG_EMAIL           202
+
+// PUSH KEY
+#define PUSHKEY_CHATTING_MESSAGE    @"IMESSAGE"
+#define PUSHKEY_DO_SURVEY           @"DO_SURVEY"
+#define PUSHKEY_DO_SURVEY_RIGHT_NOW @"DO_SURVEY_RIGHT_NOW"
+#define PUSHKEY_INVTIE_MATCH        @"INVITE"
+#define PUSHKEY_DENY_MATCH          @"DENY"
+#define PUSHKEY_MATCHING_COMPLETED  @"MATCHING_COMPLETED"
+#define PUSHKEY_REQUEST_MATCH       @"REQUEST"
+
+// VIEW ORIGIN
+#define VIEW_FROM_MATCH_LIST        0
+#define VIEW_FROM_SEARCH_MATCH      1
+#define VIEW_FROM_DETAIL_MATCH      2
+#define VIEW_FROM_PUSHMESSAGE       3
+#define VIEW_FROM_MENU              4
+#define VIEW_FROM_MAKING_NEW_MATCH  5
+#define VIEW_FROM_REGISTER          6
+#define VIEW_FROM_CHANGE_PROFILE    7
+#define VIEW_FROM_TEAMURL_INVITE    8
+#define VIEW_FROM_DETAIL_MATCH_INVITE_TEAM  10
+#define VIEW_FROM_VERSION_INFO      11
+
+// VIEW TYPE
+#define VIEW_WITH_SERVICE_POLICY    0
+#define VIEW_WITH_PRIVACY_POLICY    1
+
+// TABBAR INDEX
+#define TABBAR_INDEX_POST           0
+#define TABBAR_INDEX_MATCH          1
+#define TABBAR_INDEX_MATCH_NEARBY   2
+#define TABBAR_INDEX_TEAM           3
+
+// PADDING
+#define PADDING_IN_TEXTFIELD    7
+
+#define CHAT_PROBLEM_MANAGER_PHONE_NUMBER   @"010-2668-7068"
+

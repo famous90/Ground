@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DF5C64F3-4E00-4673-A495-C32527CFDFAA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GroundIOS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>28112EEF-5BF3-4841-B7B3-527A3153272F</key>
+		<string>ssh://altair.vps.phps.kr/~/repositories/ground/ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GroundIOS/GroundIOS.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>28112EEF-5BF3-4841-B7B3-527A3153272F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://altair.vps.phps.kr/~/repositories/ground/ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>28112EEF-5BF3-4841-B7B3-527A3153272F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>28112EEF-5BF3-4841-B7B3-527A3153272F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GroundIOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

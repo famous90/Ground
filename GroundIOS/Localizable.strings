@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  GroundIOS
+
+  Created by Z's iMac on 13. 10. 12..
+  Copyright (c) 2013년 AnB. All rights reserved.
+*/
+
+"IMESSAGE" = "채팅 메세지가 왔습니다.";
+"DO_SURVEY" = "참불조사를 시작합니다.";
+"DO_SURVEY_RIGHT_NOW" = "참불조사를 해주세요.";
+"INVITE" = "경기요청이 왔습니다.";
+"DENY" = "경기요청을 거절했습니다.";
+"MATCHING_COMPLETED" = "경기가 성사되었습니다.";
+"REQUEST" = "경기요청이 왔습니다.";
